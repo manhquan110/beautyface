@@ -97,7 +97,7 @@ class BeautyModel:
         self.model.compile(loss='mean_squared_error',
                            optimizer='adam', metrics=['mse'])
 
-    def infor():
+    def infor(self):
         model = self.model
         if model:
             model.summary()
